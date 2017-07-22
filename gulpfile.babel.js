@@ -1,13 +1,15 @@
 import gulp from "gulp";
 import util from "gulp-util";
+import del from "del";
 import sass from "gulp-sass";
 import concat from "gulp-concat";
 import cssnano from "gulp-cssnano";
-import del from "del";
+import minifier from "gulp-uglify/minifier";
+import uglifyjs from "uglify-js";
+import mainBower from "main-bower-files";
 import webpack from "webpack";
 import webpackStream from "webpack-stream";
 import webpackDevServer from "webpack-dev-server";
-import UglifyJSWebpackPlugin from "uglifyjs-webpack-plugin";
 import runSequence from "run-sequence";
 import webpackConfig from "./webpack.config.babel";
 
@@ -17,7 +19,7 @@ const isProduction = false;
  * Clean build files
  */
 gulp.task("clean", (callback) => {
-  del.sync("./public/", callback);
+  del.sync("./public/assets/", callback);
 });
 
 /**
@@ -30,7 +32,27 @@ gulp.task("sass", function() {
     .pipe(sass().on("error", util.log))
     .pipe(concat("style.css").on("error", util.log))
     .pipe(cssnano().on("error", util.log))
-    .pipe(gulp.dest("./public/css/"));
+    .pipe(gulp.dest("./public/assets/"));
+});
+
+/**
+ * Bundle the js files of bower components
+ */
+gulp.task("bower:js", () => {
+  return gulp.src(mainBower("**/*.js"))
+    .pipe(concat("bower.js").on("error", util.log))
+    .pipe(minifier({}, uglifyjs).on("error", util.log))
+    .pipe(gulp.dest("./public/assets/"));
+});
+
+/**
+ * Bundle the css files of bower components
+ */
+gulp.task("bower:css", () => {
+  return gulp.src(mainBower("**/*.css"))
+    .pipe(concat("bower.css").on("error", util.log))
+    .pipe(cssnano().on("error", util.log))
+    .pipe(gulp.dest("./public/assets/"));
 });
 
 /**
@@ -39,8 +61,8 @@ gulp.task("sass", function() {
 gulp.task("webpack-build", () => {
   return gulp.src("./src/index.jsx")
     .pipe(webpackStream(webpackConfig, webpack))
-    .on( "error", (error) => { util.log(error); })
-    .pipe(gulp.dest("public/"));
+    .on("error", (error) => { util.log(error); })
+    .pipe(gulp.dest("public/assets/"));
 });
 
 /**
@@ -48,12 +70,9 @@ gulp.task("webpack-build", () => {
  */
 gulp.task("webpack-dev-server", () => {
   new webpackDevServer(webpack(webpackConfig), {
-    contentBase: "public/",
+    contentBase: "public/assets/",
     stats: { colors: true },
-    hot: true,
-    watchOptions: {
-      poll: true
-    }
+    hot: true
   })
   .listen(8080, "localhost", (error) => {
     if(error) {
@@ -70,6 +89,8 @@ gulp.task("dev", (callback) => {
   runSequence([
     "clean",
     "sass",
+    "bower:js",
+    "bower:css",
     "webpack-dev-server"
   ], callback)
 });
@@ -80,6 +101,9 @@ gulp.task("dev", (callback) => {
 gulp.task("build", (callback) => {
   runSequence([
     "clean",
+    "sass",
+    "bower:js",
+    "bower:css",
     "webpack-build"
   ], callback)
 });

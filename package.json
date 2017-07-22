@@ -2,7 +2,7 @@
   "name": "webpack2-gulp-bower-react-redux",
   "version": "1.0.0",
   "description": "A starter kit for react redux architecture with webpack2",
-  "main": "app.js",
+  "main": "index.jsx",
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build"
@@ -20,11 +20,14 @@
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.2",
     "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^1.5.2",
     "gulp-util": "^3.0.8",
+    "main-bower-files": "^2.13.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-hot-loader": "^3.0.0-beta.7",
-    "run-sequence": "^2.0.0"
+    "run-sequence": "^2.0.0",
+    "uglify-js": "github:mishoo/UglifyJS2#0a3d780"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

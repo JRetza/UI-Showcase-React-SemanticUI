@@ -6,7 +6,7 @@ const config = {
     path.join(__dirname, 'src/index.jsx')
   ],
   output: {
-    path: path.join(__dirname, 'public/js/'),
+    path: path.join(__dirname, 'public/assets/'),
     filename: 'bundle.js',
     publicPath: '/'
   },

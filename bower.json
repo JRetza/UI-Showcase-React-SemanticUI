@@ -1,0 +1,25 @@
+{
+  "name": "webpack2-gulp-bower-react-redux",
+  "description": "A starter kit for react redux architecture with webpack2",
+  "main": "app.js",
+  "authors": [
+    "Praveenkumar K"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Webpack2",
+    "React",
+    "Redux"
+  ],
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "^3.2.1"
+  }
+}
