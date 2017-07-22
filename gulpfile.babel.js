@@ -8,6 +8,7 @@ import minifier from "gulp-uglify/minifier";
 import uglifyjs from "uglify-js";
 import mainBower from "main-bower-files";
 import webpack from "webpack";
+import { HotModuleReplacementPlugin } from "webpack";
 import webpackStream from "webpack-stream";
 import webpackDevServer from "webpack-dev-server";
 import runSequence from "run-sequence";
@@ -69,10 +70,16 @@ gulp.task("webpack-build", () => {
  * Start Dev server with Webpack
  */
 gulp.task("webpack-dev-server", () => {
+  let devConfig = Object.create(webpackConfig);
+  devConfig.entry.unshift("react-hot-loader/patch");
+  devConfig.entry.unshift("webpack-dev-server/client?http://localhost:8080");
+  devConfig.plugins.unshift(new HotModuleReplacementPlugin());
+
   new webpackDevServer(webpack(webpackConfig), {
     contentBase: "public/assets/",
     stats: { colors: true },
-    hot: true
+    hot: true,
+    hotOnly: true
   })
   .listen(8080, "localhost", (error) => {
     if(error) {

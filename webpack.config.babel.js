@@ -13,7 +13,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './src/index.html'
+      template: path.join(__dirname, 'src/index.html')
     })
   ],
   watch: true,
