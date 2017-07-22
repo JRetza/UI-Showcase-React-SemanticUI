@@ -1,5 +1,5 @@
 {
-  "name": "webpack2-gulp-bower-react-redux",
+  "name": "webpack2-gulp-bower-react-redux-semanticUI",
   "version": "1.0.0",
   "description": "A starter kit for react redux architecture with webpack2",
   "main": "index.jsx",

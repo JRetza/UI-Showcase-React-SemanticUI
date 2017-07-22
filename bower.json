@@ -1,7 +1,7 @@
 {
-  "name": "webpack2-gulp-bower-react-redux",
+  "name": "webpack2-gulp-bower-react-redux-semanticUI",
   "description": "A starter kit for react redux architecture with webpack2",
-  "main": "app.js",
+  "main": "index.jsx",
   "authors": [
     "Praveenkumar K"
   ],
@@ -19,7 +19,16 @@
     "test",
     "tests"
   ],
+  "overrides": {
+    "semantic": {
+      "main": [
+        "dist/semantic.min.css",
+        "dist/semantic.min.js"
+      ]
+    }
+  },
   "dependencies": {
-    "jQuery": "^3.2.1"
+    "semantic": "semantic-ui#^2.2.11",
+    "jquery": "^3.2.1"
   }
 }
