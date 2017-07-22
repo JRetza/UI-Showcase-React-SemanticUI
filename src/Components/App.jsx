@@ -1,12 +1,11 @@
 import React from 'react';
-import '../../assets/styles/App.scss';
 
-function App() {  
+function App() {
   return (
     <div className="site-wrapper">
-      My React Webpack App
+      My React App
     </div>
   );
 }
 
-export default App;  
+export default App;

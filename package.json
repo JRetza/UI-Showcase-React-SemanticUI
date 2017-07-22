@@ -4,9 +4,8 @@
   "description": "A starter kit for react redux architecture with webpack2",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --env.dev",
-    "production": "webpack -p --env.production"
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
   "keywords": [
     "Webpack2",
@@ -16,9 +15,16 @@
   "author": "Praveenkumar K",
   "license": "ISC",
   "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-hot-loader": "^3.0.0-beta.7"
+    "react-hot-loader": "^3.0.0-beta.7",
+    "run-sequence": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -27,13 +33,12 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",
     "css-loader": "^0.28.4",
-    "extract-text-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^2.29.0",
     "loader-utils": "^1.1.0",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.6",
-    "style-loader": "^0.18.2",
     "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.5.1"
+    "webpack-dev-server": "^2.5.1",
+    "webpack-stream": "^3.2.0"
   }
 }

@@ -1,12 +1,9 @@
-import React from 'react';  
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-
 import App from './Components/App.jsx';
 
-import '../assets/styles/index.scss';
-
-function renderApp() {  
+function renderApp() {
   ReactDOM.render(
     <AppContainer>
       <App />
@@ -17,6 +14,6 @@ function renderApp() {
 
 renderApp();
 
-if (module.hot) {  
-  module.hot.accept('./components/app/App.jsx', renderApp);
+if (module.hot) {
+  module.hot.accept('./Components/App.jsx', renderApp);
 }

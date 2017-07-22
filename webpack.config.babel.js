@@ -1,33 +1,22 @@
-import path from 'path';  
+import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import {HotModuleReplacementPlugin} from 'webpack';
 
-const defaultEnv = {  
-  dev: true,
-  production: false,
-};
-
-export default (env = defaultEnv) => ({  
+const config = {
   entry: [
-    ...env.dev ? [
-      'react-hot-loader/patch',
-      'webpack-dev-server/client?http://localhost:8080',
-    ] : [],
-    path.join(__dirname, 'src/index.jsx'),
+    path.join(__dirname, 'src/index.jsx')
   ],
   output: {
-    path: path.join(__dirname, 'public'),
+    path: path.join(__dirname, 'public/js/'),
     filename: 'bundle.js',
+    publicPath: '/'
   },
   plugins: [
-    ...env.dev ? [
-      new HotModuleReplacementPlugin(),
-    ] : [],
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: './src/index.html'
-    }),
+    })
   ],
+  watch: true,
   module: {
     rules: [
       {
@@ -42,19 +31,14 @@ export default (env = defaultEnv) => ({
               plugins: ['react-hot-loader/babel'],
               presets: [
                 ['es2015', { modules: false }],
-                'react',
+                'react'
               ],
             }
           }
         ]
-      },
-      {
-        test: /\.(css|scss|sass)$/,
-        loader: 'style-loader!css-loader!sass-loader',
-      },
+      }
     ]
-  },
-  devServer: {
-    hot: env.dev,
-  },
-});
+  }
+};
+
+export default config;
