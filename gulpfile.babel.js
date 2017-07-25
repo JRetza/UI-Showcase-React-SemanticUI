@@ -10,11 +10,9 @@ import mainBower from "main-bower-files";
 import webpack from "webpack";
 import { HotModuleReplacementPlugin } from "webpack";
 import webpackStream from "webpack-stream";
-import webpackDevServer from "webpack-dev-server";
+import WebpackDevServer from "webpack-dev-server";
 import runSequence from "run-sequence";
 import webpackConfig from "./webpack.config.babel";
-
-const isProduction = false;
 
 /**
  * Clean build files
@@ -27,9 +25,7 @@ gulp.task("clean", (callback) => {
  * Convert scss to css
  */
 gulp.task("sass", function() {
-  return gulp.src([
-      "./assets/styles/importer.scss"
-    ])
+  return gulp.src([ "./assets/styles/importer.scss" ])
     .pipe(sass().on("error", util.log))
     .pipe(concat("style.css").on("error", util.log))
     .pipe(cssnano().on("error", util.log))
@@ -75,18 +71,18 @@ gulp.task("webpack-dev-server", () => {
   devConfig.entry.unshift("webpack-dev-server/client?http://localhost:8080");
   devConfig.plugins.unshift(new HotModuleReplacementPlugin());
 
-  new webpackDevServer(webpack(webpackConfig), {
+  new WebpackDevServer(webpack(webpackConfig), {
     contentBase: "public/assets/",
     stats: { colors: true },
     hot: true,
     hotOnly: true
   })
-  .listen(8080, "localhost", (error) => {
-    if(error) {
-      util.log("Error in webpack-dev-server", error);
-    }
-    console.log("\nApplication started at localhost:8080...");
-  });
+    .listen(8080, "localhost", (error) => {
+      if(error) {
+        util.log("Error in webpack-dev-server", error);
+      }
+      util.log("Application started at localhost:8080...");
+    });
 });
 
 /**
@@ -99,7 +95,7 @@ gulp.task("dev", (callback) => {
     "bower:js",
     "bower:css",
     "webpack-dev-server"
-  ], callback)
+  ], callback);
 });
 
 /**
@@ -112,5 +108,5 @@ gulp.task("build", (callback) => {
     "bower:js",
     "bower:css",
     "webpack-build"
-  ], callback)
+  ], callback);
 });
