@@ -71,7 +71,7 @@ gulp.task("webpack-dev-server", () => {
   devConfig.entry.unshift("webpack-dev-server/client?http://localhost:8080");
   devConfig.plugins.unshift(new HotModuleReplacementPlugin());
 
-  new WebpackDevServer(webpack(webpackConfig), {
+  new WebpackDevServer(webpack(devConfig), {
     contentBase: "public/assets/",
     stats: { colors: true },
     hot: true,

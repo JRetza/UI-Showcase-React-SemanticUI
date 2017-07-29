@@ -3,7 +3,7 @@ import HtmlWebpackPlugin from "html-webpack-plugin";
 
 const config = {
   entry: [
-    path.join(__dirname, "src/index.jsx")
+    path.join(__dirname, "src/index.js")
   ],
   output: {
     path: path.join(__dirname, "public/assets/"),
@@ -16,7 +16,11 @@ const config = {
       template: path.join(__dirname, "src/index.html")
     })
   ],
+  devtool: "source-map",
   watch: true,
+  resolve: {
+    extensions: [".json", ".js", ".react.js"]
+  },
   module: {
     rules: [
       {
