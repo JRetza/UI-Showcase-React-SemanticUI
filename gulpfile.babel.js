@@ -74,6 +74,7 @@ gulp.task("webpack-dev-server", () => {
   new WebpackDevServer(webpack(devConfig), {
     contentBase: "public/assets/",
     stats: { colors: true },
+    historyApiFallback: true,
     hot: true,
     hotOnly: true
   })
