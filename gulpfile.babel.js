@@ -1,3 +1,4 @@
+/* eslint-disable no-magic-numbers */
 import gulp from "gulp";
 import util from "gulp-util";
 import del from "del";
@@ -8,7 +9,7 @@ import minifier from "gulp-uglify/minifier";
 import uglifyjs from "uglify-js";
 import mainBower from "main-bower-files";
 import webpack from "webpack";
-import { HotModuleReplacementPlugin } from "webpack";
+import {HotModuleReplacementPlugin} from "webpack";
 import webpackStream from "webpack-stream";
 import WebpackDevServer from "webpack-dev-server";
 import runSequence from "run-sequence";
@@ -25,7 +26,7 @@ gulp.task("clean", (callback) => {
  * Convert scss to css
  */
 gulp.task("sass", function() {
-  return gulp.src([ "./assets/styles/importer.scss" ])
+  return gulp.src(["./assets/styles/importer.scss"])
     .pipe(sass().on("error", util.log))
     .pipe(concat("style.css").on("error", util.log))
     .pipe(cssnano().on("error", util.log))
@@ -73,7 +74,7 @@ gulp.task("webpack-dev-server", () => {
 
   new WebpackDevServer(webpack(devConfig), {
     contentBase: "public/assets/",
-    stats: { colors: true },
+    stats: {colors: true},
     historyApiFallback: true,
     hot: true,
     hotOnly: true
