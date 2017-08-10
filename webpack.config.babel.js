@@ -34,7 +34,9 @@ const config = {
               babelrc: false,
               plugins: [
                 "react-hot-loader/babel",
-                "transform-class-properties"
+                "transform-class-properties",
+                "transform-decorators-legacy",
+                "transform-object-rest-spread"
               ],
               presets: [
                 ["es2015", {modules: false}],
