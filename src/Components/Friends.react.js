@@ -16,8 +16,14 @@ class Friends extends React.Component {
     };
   }
 
+  componentWillReceiveProps (nextProps) {
+    this.setState({
+      friends: nextProps.friends
+    });
+  }
+
   componentDidMount () {
-    this.props.dispatch(FriendsActions.getAllFriends());
+    FriendsActions.getAllFriends();
   }
 
   render () {
