@@ -1,0 +1,15 @@
+.webpack-ui {
+  .webpack-ui-header {
+    background-color: $theme-blue;
+    .menu {
+      .item {
+        color: $white !important;
+      }
+    }
+    .dropdown {
+      .username {
+        margin-right: 10px;
+      }
+    }
+  }
+}

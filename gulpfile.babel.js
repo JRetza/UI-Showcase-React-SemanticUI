@@ -34,6 +34,33 @@ gulp.task("sass", function() {
 });
 
 /**
+ * Watch for scss file changes and run sass task
+ */
+gulp.task("sass:watch", function() {
+  return gulp.watch("./assets/styles/**/*.scss", ["sass"]);
+});
+
+/**
+ * Copy images to build folder
+ */
+gulp.task("copy:images", function() {
+  return gulp.src(["./assets/images/**/*"], {
+      base: "assets"
+    })
+    .pipe(gulp.dest("./public/assets"));
+});
+
+/**
+ * Copy fonts to build folder
+ */
+gulp.task("copy:fonts", function() {
+  return gulp.src(["./assets/fonts/**/*"], {
+      base: "assets"
+    })
+    .pipe(gulp.dest("./public/assets"));
+});
+
+/**
  * Bundle the js files of bower components
  */
 gulp.task("bower:js", () => {
@@ -94,6 +121,9 @@ gulp.task("dev", (callback) => {
   runSequence([
     "clean",
     "sass",
+    "sass:watch",
+    "copy:images",
+    "copy:fonts",
     "bower:js",
     "bower:css",
     "webpack-dev-server"
@@ -107,6 +137,8 @@ gulp.task("build", (callback) => {
   runSequence([
     "clean",
     "sass",
+    "copy:images",
+    "copy:fonts",
     "bower:js",
     "bower:css",
     "webpack-build"
