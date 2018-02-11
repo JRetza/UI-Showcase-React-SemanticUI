@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Header";
+import Menu from "./Menu";
 import UserMessages from "./Messages/UserMessages";
 
 class AppContainer extends React.Component {
@@ -16,6 +17,7 @@ class AppContainer extends React.Component {
     return (
       <div className="webpack-ui">
         <Header getAllUserMessages={this.getAllUserMessages}/>
+        <Menu/>
         {this.props.children}
         <UserMessages componentRef={ref => this.userMessages = ref} />
       </div>

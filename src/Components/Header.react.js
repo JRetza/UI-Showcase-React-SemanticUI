@@ -17,6 +17,7 @@ class Header extends React.Component {
       <div className="webpack-ui-header">
         <div className="ui secondary menu">
           <Link to="/" className="item">
+            <i className="wikipedia icon"/>
             Webpack|React
           </Link>
           <div className="right menu">

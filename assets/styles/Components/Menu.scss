@@ -1,0 +1,32 @@
+.webpack-ui {
+  .webpack-ui-menu {
+    .menu {
+      background-color: $theme-blue !important;
+      min-height: calc(100% - 50px) !important;
+      min-width: 250px;
+      top: 50px !important;
+      .item {
+        border-top: 1px solid $pale-blue;
+        color: $white;
+        .icon {
+          color: $white;
+        }
+        &:hover {
+          border-left: 5px solid $white;
+          color: $white;
+        }
+        &.active {
+          background-color: $white !important;
+          color: $theme-blue;
+          .icon {
+            color: $theme-blue;
+          }
+          &:hover {
+            border-left: 5px solid $theme-blue;
+            color: $theme-blue;
+          }
+        }
+      }
+    }
+  }
+}
