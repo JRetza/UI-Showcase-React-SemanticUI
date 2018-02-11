@@ -1,0 +1,26 @@
+.webpack-ui-user-messages {
+  .menu {
+    height: calc(100% - 50px) !important;
+    min-height: calc(100% - 50px) !important;
+    min-width: 350px;
+    top: 50px !important;
+    .item {
+      &.title {
+        color: $theme-blue;
+        border-bottom: 1px solid $light-grey;
+      }
+    }
+    .griddle-table-body {
+      max-height: calc(100vh - 150px);
+      overflow-y: auto;
+    }
+    .griddle-pagination {
+      border-top: 1px solid $light-grey;
+      padding: 10px 5px;
+      .dropdown {
+        border: 1px solid $light-grey;
+        margin: 0 10px;
+      }
+    }
+  }
+}

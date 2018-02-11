@@ -8,6 +8,10 @@ class Header extends React.Component {
     this.el.find(".ui.dropdown").dropdown();
   }
 
+  getMessages = () => {
+    this.props.getAllUserMessages();
+  }
+
   render () {
     return (
       <div className="webpack-ui-header">
@@ -19,7 +23,7 @@ class Header extends React.Component {
             <a className="item">
               <i className="list icon"/>
             </a>
-            <a className="item">
+            <a className="item" onClick={this.getMessages}>
               <i className="mail icon"/>
             </a>
             <div className="ui dropdown item">
