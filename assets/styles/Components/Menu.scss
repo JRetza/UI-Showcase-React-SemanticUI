@@ -1,10 +1,12 @@
 .webpack-ui {
   .webpack-ui-menu {
+    min-height: 100%;
+    min-width: 100%;
     .menu {
-      background-color: $theme-blue !important;
-      min-height: calc(100% - 50px) !important;
-      min-width: 250px;
-      top: 50px !important;
+      background-color: $theme-blue;
+      border-radius: 0;
+      min-height: calc(100vh - 50px);
+      min-width: 100%;
       .item {
         border-top: 1px solid $pale-blue;
         color: $white;

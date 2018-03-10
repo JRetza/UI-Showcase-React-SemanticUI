@@ -17,8 +17,14 @@ class AppContainer extends React.Component {
     return (
       <div className="webpack-ui">
         <Header getAllUserMessages={this.getAllUserMessages}/>
-        <Menu/>
-        {this.props.children}
+        <div className="webpack-ui-container ui grid">
+          <div className="three wide column padding-0">
+            <Menu/>
+          </div>
+          <div className="thirteen wide column padding-0">
+            {this.props.children}
+          </div>
+        </div>
         <UserMessages componentRef={ref => this.userMessages = ref} />
       </div>
     );

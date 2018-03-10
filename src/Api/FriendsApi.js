@@ -1,9 +1,9 @@
 import axios from "axios";
-const api = "http://rest.learncode.academy/api/learncode";
+const api = "https://jsonplaceholder.typicode.com";
 
 const friendsApi = {
   getAllFriends: () => {
-    return axios.get(api + "/friends");
+    return axios.get(api + "/users");
   }
 };
 

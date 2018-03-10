@@ -5,8 +5,8 @@ class Header extends React.Component {
   render () {
     return (
       <div className="webpack-ui-menu">
-        <div className="ui left fixed vertical menu">
-          <Link to="/" className="item" activeClassName="active">
+        <div className="ui left vertical menu">
+          <Link to="/home" className="item" activeClassName="active">
             <i className="home icon"/>
             Home
           </Link>

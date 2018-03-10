@@ -64,6 +64,7 @@ class UserMessages extends React.Component {
                 plugins={[plugins.LocalPlugin]}
                 styleConfig={{
                   classNames: {
+                    TableBody: "griddle-table-body",
                     NextButton: "ui button theme-blue-button",
                     PreviousButton: "ui button theme-blue-button",
                     PageDropdown: "ui dropdown"

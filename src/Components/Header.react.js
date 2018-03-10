@@ -16,7 +16,7 @@ class Header extends React.Component {
     return (
       <div className="webpack-ui-header">
         <div className="ui secondary menu">
-          <Link to="/" className="item">
+          <Link to="/home" className="item">
             <i className="wikipedia icon"/>
             Webpack|React
           </Link>

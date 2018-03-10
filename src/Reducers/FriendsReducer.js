@@ -1,7 +1,8 @@
 import actions from "../Actions/ActionTypes";
 
 const initialState = {
-  friends: []
+  friends: [],
+  isFriendsLoaded: false
 };
 
 const friendsReducer = (state = initialState, action) => {
@@ -9,7 +10,8 @@ const friendsReducer = (state = initialState, action) => {
     case actions.GET_ALL_FRIENDS:
       return {
         ...state,
-        friends: action.data
+        friends: action.data,
+        isFriendsLoaded: true
       };
     default:
       return state;

@@ -1,0 +1,12 @@
+.webpack-ui {
+  .webpack-ui-container {
+    margin-top: 0;
+    max-height: calc(100vh - 50px);
+    .webpack-ui-body {
+      max-height: 100%;
+      max-width: calc(100% - 15px);
+      overflow: auto;
+      padding: 10px;
+    }
+  }
+}
