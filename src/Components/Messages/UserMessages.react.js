@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import {connect} from "react-redux";
 import Griddle, {plugins} from "griddle-react";
 import UserActions from "../../Actions/UserActions";
-import MessageHead from "./MessageHead";
-import MessageRow from "./MessageRow";
-import MessageBody from "./MessageBody";
+import GridHead from "../GridComponents/GridHead";
+import MessagesGrid from "../GridComponents/MessagesGrid";
+import GridBody from "../GridComponents/GridBody";
 
 @connect((store) => {
   return {
@@ -71,9 +71,9 @@ class UserMessages extends React.Component {
                   }
                 }}
                 components={{
-                  Row: MessageRow,
-                  TableContainer: () => MessageHead,
-                  TableBody: MessageBody,
+                  Row: MessagesGrid,
+                  TableContainer: () => GridHead,
+                  TableBody: GridBody,
                   Filter: () => <span />,
                   SettingsToggle: () => <span />
                 }} />

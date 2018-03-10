@@ -8,7 +8,7 @@ import _ from "underscore";
     "rowData": plugins.LocalPlugin.selectors.rowDataSelector(state, props)
   };
 })
-class ProjectRowComponent extends React.Component {
+class MessagesGrid extends React.Component {
   constructor (props) {
     super(props);
   }
@@ -36,4 +36,4 @@ class ProjectRowComponent extends React.Component {
   }
 }
 
-export default ProjectRowComponent;
+export default MessagesGrid;
