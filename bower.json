@@ -1,6 +1,6 @@
 {
-  "name": "webpack2-gulp-bower-react-redux-semanticUI",
-  "description": "A starter kit for react redux architecture with webpack2",
+  "name": "webpack3-gulp-bower-react-redux-semanticUI",
+  "description": "A ui showcase with react redux architecture with webpack2",
   "main": "index.jsx",
   "authors": [
     "Praveenkumar K"
