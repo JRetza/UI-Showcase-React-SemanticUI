@@ -20,7 +20,7 @@ class MessagesGrid extends React.Component {
       <div className="ui comments">
         <div className="comment">
           <a className="avatar">
-            <img src={"/images/" + avatar + ".png"}/>
+            <img src={"images/" + avatar + ".png"}/>
           </a>
           <div className="content">
             <a className="author">{rowData.email}</a>

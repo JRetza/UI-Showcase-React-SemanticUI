@@ -1,12 +1,17 @@
 import React from "react";
-import {Route} from "react-router";
+import {HashRouter as Router, Route} from "react-router-dom";
 import AppContainer from "./Components/AppContainer";
 import Home from "./Components/Home";
 import Friends from "./Components/Friends/Friends";
 
-export default (
-  <Route path="/" component={AppContainer}>
-    <Route path="/home" component={Home}/>
-    <Route path="/friend" component={Friends}/>
-  </Route>
+const AppRouter = () => (
+  <Router basename="/">
+    <Route exact path="/">
+      <AppContainer>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/friend" component={Friends}/>
+      </AppContainer>
+    </Route>
+  </Router>
 );
+export default AppRouter;

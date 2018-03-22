@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Link} from "react-router";
+import {NavLink} from "react-router-dom";
 
 class Header extends React.Component {
   componentDidMount () {
@@ -16,20 +16,17 @@ class Header extends React.Component {
     return (
       <div className="webpack-ui-header">
         <div className="ui secondary menu">
-          <Link to="/home" className="item">
+          <NavLink exact to="/" className="item">
             <i className="wikipedia icon"/>
             Webpack|React
-          </Link>
+          </NavLink>
           <div className="right menu">
-            <a className="item">
-              <i className="list icon"/>
-            </a>
             <a className="item" onClick={this.getMessages}>
               <i className="mail icon"/>
             </a>
             <div className="ui dropdown item">
               <span className="username">Praveenkumar</span>
-              <img className="ui avatar image" src="/images/avatar.jpg"/>
+              <img className="ui avatar image" src="images/avatar.jpg"/>
               <div className="menu">
                 <a className="item">Profile</a>
                 <a className="item">Settings</a>

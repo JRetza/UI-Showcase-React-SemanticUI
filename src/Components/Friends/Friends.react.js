@@ -37,6 +37,7 @@ class Friends extends React.Component {
     const {friends, isFriendsLoaded} = this.state;
     return (
       <div className="webpack-ui-body">
+        <h2>This page uses Griddle React</h2>
         <div className="webpack-ui-friends">
           {
             isFriendsLoaded ?

@@ -6,9 +6,8 @@ const config = {
     path.join(__dirname, "src/index.js")
   ],
   output: {
-    path: path.join(__dirname, "public/assets/"),
-    filename: "bundle.js",
-    publicPath: "/"
+    path: path.join(__dirname, "public/"),
+    filename: "bundle.js"
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -17,7 +16,6 @@ const config = {
     })
   ],
   devtool: "source-map",
-  watch: true,
   resolve: {
     extensions: [".json", ".js", ".react.js"]
   },

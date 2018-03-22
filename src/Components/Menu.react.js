@@ -1,31 +1,27 @@
 import React from "react";
-import {Link} from "react-router";
+import {NavLink} from "react-router-dom";
 
 class Header extends React.Component {
   render () {
     return (
       <div className="webpack-ui-menu">
         <div className="ui left vertical menu">
-          <Link to="/home" className="item" activeClassName="active">
+          <NavLink exact to="/" className="item" activeClassName="active">
             <i className="home icon"/>
             Home
-          </Link>
-          <Link to="/post" className="item" activeClassName="active">
+          </NavLink>
+          <NavLink exact to="/post" className="item" activeClassName="active">
             <i className="feed icon"/>
             Posts
-          </Link>
-          <Link to="/photo" className="item" activeClassName="active">
-            <i className="photo icon"/>
-            Photos
-          </Link>
-          <Link to="/album" className="item" activeClassName="active">
+          </NavLink>
+          <NavLink exact to="/album" className="item" activeClassName="active">
             <i className="film icon"/>
             Albums
-          </Link>
-          <Link to="/friend" className="item" activeClassName="active">
+          </NavLink>
+          <NavLink exact to="/friend" className="item" activeClassName="active">
             <i className="users icon"/>
             Friends
-          </Link>
+          </NavLink>
         </div>
       </div>
     );

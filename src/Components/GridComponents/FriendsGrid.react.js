@@ -19,7 +19,7 @@ class FriendsGrid extends React.Component {
     return (
       <div className="card">
         <div className="image">
-          <img src={"/images/" + avatar +".png"}/>
+          <img src={"images/" + avatar +".png"}/>
         </div>
         <div className="content">
           <div className="header">
