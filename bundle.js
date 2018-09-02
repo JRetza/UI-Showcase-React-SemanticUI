@@ -11865,9 +11865,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(actions, "actions", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/ActionTypes.js");
+  __REACT_HOT_LOADER__.register(actions, "actions", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/ActionTypes.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/ActionTypes.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/ActionTypes.js");
 }();
 
 ;
@@ -14681,15 +14681,15 @@ function warning(message) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(369);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* unused harmony reexport BrowserRouter */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(371);
-/* unused harmony reexport HashRouter */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(178);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* unused harmony reexport Link */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(373);
 /* unused harmony reexport MemoryRouter */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(376);
-/* unused harmony reexport NavLink */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(379);
 /* unused harmony reexport Prompt */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(381);
@@ -19908,9 +19908,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(configureStore, "configureStore", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Store/store.js");
+  __REACT_HOT_LOADER__.register(configureStore, "configureStore", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Store/store.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Store/store.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Store/store.js");
 }();
 
 ;
@@ -23541,9 +23541,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(dispatcher, "dispatcher", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Dispatcher/dispatch.js");
+  __REACT_HOT_LOADER__.register(dispatcher, "dispatcher", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Dispatcher/dispatch.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Dispatcher/dispatch.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Dispatcher/dispatch.js");
 }();
 
 ;
@@ -23601,9 +23601,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(GridHead, "GridHead", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridHead.react.js");
+  __REACT_HOT_LOADER__.register(GridHead, "GridHead", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridHead.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridHead.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridHead.react.js");
 }();
 
 ;
@@ -25222,9 +25222,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(GridBody, "GridBody", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridBody.react.js");
+  __REACT_HOT_LOADER__.register(GridBody, "GridBody", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridBody.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridBody.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/GridBody.react.js");
 }();
 
 ;
@@ -37812,9 +37812,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(rootReducer, "rootReducer", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/reducer.js");
+  __REACT_HOT_LOADER__.register(rootReducer, "rootReducer", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/reducer.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/reducer.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/reducer.js");
 }();
 
 ;
@@ -37858,11 +37858,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/FriendsReducer.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/FriendsReducer.js");
 
-  __REACT_HOT_LOADER__.register(friendsReducer, "friendsReducer", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/FriendsReducer.js");
+  __REACT_HOT_LOADER__.register(friendsReducer, "friendsReducer", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/FriendsReducer.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/FriendsReducer.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/FriendsReducer.js");
 }();
 
 ;
@@ -37906,11 +37906,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, "initialState", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/UserReducer.js");
+  __REACT_HOT_LOADER__.register(initialState, "initialState", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/UserReducer.js");
 
-  __REACT_HOT_LOADER__.register(userReducer, "userReducer", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/UserReducer.js");
+  __REACT_HOT_LOADER__.register(userReducer, "userReducer", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/UserReducer.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/UserReducer.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Reducers/UserReducer.js");
 }();
 
 ;
@@ -38614,16 +38614,16 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 
 var AppRouter = function AppRouter() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["a" /* BrowserRouter */],
+    __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["a" /* HashRouter */],
     { basename: "/" },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */],
-      { path: "/UI-Showcase-React-SemanticUI/" },
+      { exact: true, path: "/" },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_2__Components_AppContainer__["a" /* default */],
         null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/home", component: __WEBPACK_IMPORTED_MODULE_3__Components_Home__["a" /* default */] }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { path: "/friend", component: __WEBPACK_IMPORTED_MODULE_4__Components_Friends_Friends__["a" /* default */] })
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: "/", component: __WEBPACK_IMPORTED_MODULE_3__Components_Home__["a" /* default */] }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["c" /* Route */], { exact: true, path: "/friend", component: __WEBPACK_IMPORTED_MODULE_4__Components_Friends_Friends__["a" /* default */] })
       )
     )
   );
@@ -38637,9 +38637,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AppRouter, "AppRouter", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/routes.js");
+  __REACT_HOT_LOADER__.register(AppRouter, "AppRouter", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/routes.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/routes.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/routes.js");
 }();
 
 ;
@@ -38709,7 +38709,7 @@ BrowserRouter.propTypes = {
 };
 
 
-/* harmony default export */ __webpack_exports__["a"] = (BrowserRouter);
+/* unused harmony default export */ var _unused_webpack_default_export = (BrowserRouter);
 
 /***/ }),
 /* 370 */
@@ -39088,7 +39088,7 @@ HashRouter.propTypes = {
 };
 
 
-/* unused harmony default export */ var _unused_webpack_default_export = (HashRouter);
+/* harmony default export */ __webpack_exports__["a"] = (HashRouter);
 
 /***/ }),
 /* 372 */
@@ -39753,7 +39753,7 @@ NavLink.defaultProps = {
   ariaCurrent: 'true'
 };
 
-/* unused harmony default export */ var _unused_webpack_default_export = (NavLink);
+/* harmony default export */ __webpack_exports__["a"] = (NavLink);
 
 /***/ }),
 /* 377 */
@@ -41709,9 +41709,9 @@ var _temp2 = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AppContainer, "AppContainer", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/AppContainer.react.js");
+  __REACT_HOT_LOADER__.register(AppContainer, "AppContainer", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/AppContainer.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/AppContainer.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/AppContainer.react.js");
 }();
 
 ;
@@ -41785,19 +41785,14 @@ var Header = function (_React$Component) {
           "div",
           { className: "ui secondary menu" },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* Link */],
-            { to: "/home", className: "item" },
+            __WEBPACK_IMPORTED_MODULE_2_react_router_dom__["b" /* NavLink */],
+            { exact: true, to: "/", className: "item" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "wikipedia icon" }),
             "Webpack|React"
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             "div",
             { className: "right menu" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              "a",
-              { className: "item" },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "list icon" })
-            ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               "a",
               { className: "item", onClick: this.getMessages },
@@ -41852,9 +41847,9 @@ var _temp2 = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Header, "Header", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Header.react.js");
+  __REACT_HOT_LOADER__.register(Header, "Header", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Header.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Header.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Header.react.js");
 }();
 
 ;
@@ -41897,32 +41892,14 @@ var Header = function (_React$Component) {
           "div",
           { className: "ui left vertical menu" },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-            { to: "/home", className: "item", activeClassName: "active" },
+            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+            { exact: true, to: "/", className: "item", activeClassName: "active" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "home icon" }),
             "Home"
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-            { to: "/post", className: "item", activeClassName: "active" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "feed icon" }),
-            "Posts"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-            { to: "/photo", className: "item", activeClassName: "active" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "photo icon" }),
-            "Photos"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-            { to: "/album", className: "item", activeClassName: "active" },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "film icon" }),
-            "Albums"
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* Link */],
-            { to: "/friend", className: "item", activeClassName: "active" },
+            __WEBPACK_IMPORTED_MODULE_1_react_router_dom__["b" /* NavLink */],
+            { exact: true, to: "/friend", className: "item", activeClassName: "active" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "users icon" }),
             "Friends"
           )
@@ -41945,9 +41922,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Header, "Header", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Menu.react.js");
+  __REACT_HOT_LOADER__.register(Header, "Header", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Menu.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Menu.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Menu.react.js");
 }();
 
 ;
@@ -42116,9 +42093,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(UserMessages, "UserMessages", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Messages/UserMessages.react.js");
+  __REACT_HOT_LOADER__.register(UserMessages, "UserMessages", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Messages/UserMessages.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Messages/UserMessages.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Messages/UserMessages.react.js");
 }();
 
 ;
@@ -50171,9 +50148,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(userActions, "userActions", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/UserActions.js");
+  __REACT_HOT_LOADER__.register(userActions, "userActions", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/UserActions.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/UserActions.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/UserActions.js");
 }();
 
 ;
@@ -50203,11 +50180,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(api, "api", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/UserApi.js");
+  __REACT_HOT_LOADER__.register(api, "api", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/UserApi.js");
 
-  __REACT_HOT_LOADER__.register(userApi, "userApi", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/UserApi.js");
+  __REACT_HOT_LOADER__.register(userApi, "userApi", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/UserApi.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/UserApi.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/UserApi.js");
 }();
 
 ;
@@ -51183,9 +51160,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MessagesGrid, "MessagesGrid", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/MessagesGrid.react.js");
+  __REACT_HOT_LOADER__.register(MessagesGrid, "MessagesGrid", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/MessagesGrid.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/MessagesGrid.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/MessagesGrid.react.js");
 }();
 
 ;
@@ -51221,8 +51198,95 @@ var Home = function (_React$Component) {
     value: function render() {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "div",
-        { className: "site-wrapper" },
-        "My Home page"
+        { className: "webpack-ui-home" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "ui statistics" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "statistic" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "value" },
+              "22"
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "label" },
+              "Saves"
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "statistic" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "text value" },
+              "Three",
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+              "Thousand"
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "label" },
+              "Signups"
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "statistic" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "value" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "plane icon" }),
+              " 5"
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "label" },
+              "Flights"
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "statistic" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "value" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { src: "images/avatar.jpg", className: "ui circular inline image" }),
+              "42"
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "label" },
+              "Team Members"
+            )
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "ui vertical masthead center aligned segment" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "ui text container" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "h1",
+              { className: "ui header" },
+              "Semantic-ui Showcase"
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "h2",
+              null,
+              "Built with Webpack, Gulp, Bower, React, Redux."
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "ui huge primary button" },
+              "Get Started",
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", { className: "right arrow icon" })
+            )
+          )
+        )
       );
     }
   }]);
@@ -51241,9 +51305,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Home, "Home", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Home.react.js");
+  __REACT_HOT_LOADER__.register(Home, "Home", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Home.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Home.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Home.react.js");
 }();
 
 ;
@@ -51324,6 +51388,11 @@ var Friends = (_dec = Object(__WEBPACK_IMPORTED_MODULE_1_react_redux__["connect"
         "div",
         { className: "webpack-ui-body" },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "h2",
+          null,
+          "This page uses Griddle React"
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           "div",
           { className: "webpack-ui-friends" },
           isFriendsLoaded ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_griddle_react___default.a, {
@@ -51371,9 +51440,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Friends, "Friends", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Friends/Friends.react.js");
+  __REACT_HOT_LOADER__.register(Friends, "Friends", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Friends/Friends.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Friends/Friends.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/Friends/Friends.react.js");
 }();
 
 ;
@@ -51414,9 +51483,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(friendsActions, "friendsActions", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/FriendsActions.js");
+  __REACT_HOT_LOADER__.register(friendsActions, "friendsActions", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/FriendsActions.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/FriendsActions.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Actions/FriendsActions.js");
 }();
 
 ;
@@ -51446,11 +51515,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(api, "api", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/FriendsApi.js");
+  __REACT_HOT_LOADER__.register(api, "api", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/FriendsApi.js");
 
-  __REACT_HOT_LOADER__.register(friendsApi, "friendsApi", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/FriendsApi.js");
+  __REACT_HOT_LOADER__.register(friendsApi, "friendsApi", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/FriendsApi.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/FriendsApi.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Api/FriendsApi.js");
 }();
 
 ;
@@ -51564,9 +51633,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(FriendsGrid, "FriendsGrid", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/FriendsGrid.react.js");
+  __REACT_HOT_LOADER__.register(FriendsGrid, "FriendsGrid", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/FriendsGrid.react.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "D:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/FriendsGrid.react.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "F:/Praveen/Official/Projects/UI-Showcase-React-SemanticUI/src/Components/GridComponents/FriendsGrid.react.js");
 }();
 
 ;
