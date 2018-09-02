@@ -10,14 +10,6 @@ class Header extends React.Component {
             <i className="home icon"/>
             Home
           </NavLink>
-          <NavLink exact to="/post" className="item" activeClassName="active">
-            <i className="feed icon"/>
-            Posts
-          </NavLink>
-          <NavLink exact to="/album" className="item" activeClassName="active">
-            <i className="film icon"/>
-            Albums
-          </NavLink>
           <NavLink exact to="/friend" className="item" activeClassName="active">
             <i className="users icon"/>
             Friends
